@@ -1,0 +1,12 @@
+version: 1
+
+models:
+  - name: top10
+    description: "Top 10 compradores"
+
+  - name: primeiro_trimestre
+    columns:
+      - name: qtd_vendas
+        tests:
+          - nao_negativo
+      
